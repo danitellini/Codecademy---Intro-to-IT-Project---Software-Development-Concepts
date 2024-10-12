@@ -1,1 +1,27 @@
+define pattern
+define log or logs
+create list_of_logs = []
 
+if list_of_logs is empty:
+  "no logs to search
+  end
+
+if pattern is empty:
+  "no pattern provided"
+  end
+
+create pattern_present = []
+
+for each log in list_of_logs:
+  iterate through the contents
+  if pattern is found in the log:
+    append the log to pattern_present
+  end if
+end for
+
+if pattern_present is empty:
+  "no pattern found"
+  end
+
+return the pattern_present list
+end
