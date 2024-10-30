@@ -1,4 +1,6 @@
+# Psuedocode Practice
+
 Project Objectives:
 	Design the steps of an algorithm.
 	Convert the steps into a full flowchart.
-	Turn the flowchart into pseudocode.
+	Turn the flowchart into psuedocode.
